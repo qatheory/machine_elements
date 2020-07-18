@@ -8,70 +8,41 @@
             </div>
             <v-card>
                 <v-card-title class="headline"
-                    >Welcome to the Vuetify + Nuxt.js template</v-card-title
-                >
+                    >Chào mừng bạn đến với Auto Machine elements
+                </v-card-title>
                 <v-card-text>
                     <p>
-                        Vuetify is a progressive Material Design component
-                        framework for Vue.js. It was designed to empower
-                        developers to create amazing applications.
+                        Nếu bạn gặp khó khăn trong quá trình chuẩn bị bản thuyết
+                        minh hay thiết kế bản vẽ chế tạo hộp giảm tốc khi làm đồ
+                        án chi tiết máy, chúng tôi có thế giúp bạn giải quyết
+                        được vấn đề này, bạn có thể sử dụng ứng dụng của chúng
+                        tôi để có thể kiểm tra kết quả bản vẽ hoặc thuyết minh.
+                        Chúng tôi cũng xây dựng một hệ thống ôn tập và đề cương
+                        để giúp bạn ôn tập và chuẩn bị tốt nhất cho việc bảo vệ
+                        đồ án
                     </p>
                     <p>
-                        For more information on Vuetify, check out the
-                        <a
-                            href="https://vuetifyjs.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >documentation</a
-                        >.
+                        Chức năng ôn tập là miễn phí. Tuy nhiên, để duy trì
+                        trang web và ứng dụng, quảng cáo có thể sẽ xuất hiện
+                        trong quá trình sử dụng chức năng. Phiền bạn hãy tắt các
+                        chức năng adblock trước khi sử dụng ứng dụng
                     </p>
                     <p>
-                        If you have questions, please join the official
-                        <a
-                            href="https://chat.vuetifyjs.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            title="chat"
-                            >discord</a
-                        >.
+                        Cảm ơn bạn đã sử dụng ứng dụng của chúng tôi, chúc bạn
+                        sẽ hoàn thành tốt môn đồ án chi tiết máy!
                     </p>
-                    <p>
-                        Find a bug? Report it on the github
-                        <a
-                            href="https://github.com/vuetifyjs/vuetify/issues"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            title="contribute"
-                            >issue board</a
-                        >.
-                    </p>
-                    <p>
-                        Thank you for developing with Vuetify and I look forward
-                        to bringing more exciting features in the future.
-                    </p>
-                    <div class="text-xs-right">
-                        <em>
-                            <small>&mdash; John Leider</small>
-                        </em>
-                    </div>
-                    <hr class="my-3" />
-                    <a
-                        href="https://nuxtjs.org/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >Nuxt Documentation</a
-                    >
-                    <br />
-                    <a
-                        href="https://github.com/nuxt/nuxt.js"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >Nuxt GitHub</a
-                    >
+
+                    <hr class="mt-3" />
                 </v-card-text>
                 <v-card-actions>
                     <v-spacer />
-                    <v-btn color="primary" nuxt to="/inspire">Continue</v-btn>
+                    <v-btn color="warning" nuxt to="/meproject">Đăng ký</v-btn>
+                    <v-btn color="success" nuxt to="/meproject"
+                        >Tìm hiểu về hộp giảm tốc</v-btn
+                    >
+                    <v-btn color="primary" nuxt to="/meproject"
+                        >Thiết kế hộp giảm tốc</v-btn
+                    >
                 </v-card-actions>
             </v-card>
         </v-flex>
