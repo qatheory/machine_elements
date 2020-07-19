@@ -24,8 +24,12 @@
                 AUTO Machine Elements Project
             </v-toolbar-title>
             <v-spacer />
+            <v-btn outlined color="rgba(50, 50, 50,0.8)" v-if="!$auth.loggedIn">
+                Đăng nhập
+                <v-icon right> mdi-login</v-icon>
+            </v-btn>
             <v-btn icon @click.stop="rightDrawer = !rightDrawer">
-                <v-icon>mdi-menu</v-icon>
+                <v-icon>mdi-dots-vertical</v-icon>
             </v-btn>
         </v-app-bar>
         <v-content>

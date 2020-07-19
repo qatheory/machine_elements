@@ -35,14 +35,32 @@
                     <hr class="mt-3" />
                 </v-card-text>
                 <v-card-actions>
-                    <v-spacer />
-                    <v-btn color="warning" nuxt to="/meproject">Đăng ký</v-btn>
-                    <v-btn color="success" nuxt to="/meproject"
-                        >Tìm hiểu về hộp giảm tốc</v-btn
-                    >
-                    <v-btn color="primary" nuxt to="/meproject"
-                        >Thiết kế hộp giảm tốc</v-btn
-                    >
+                    <v-row>
+                        <v-col class="text-right">
+                            <v-spacer />
+                            <v-btn
+                                class="mb-2"
+                                color="warning"
+                                nuxt
+                                to="/meproject"
+                                >Đăng ký</v-btn
+                            >
+                            <v-btn
+                                class="mb-2"
+                                color="success"
+                                nuxt
+                                to="/meproject"
+                                >Tìm hiểu về hộp giảm tốc</v-btn
+                            >
+                            <v-btn
+                                class="mb-2"
+                                color="primary"
+                                nuxt
+                                to="/meproject"
+                                >Thiết kế hộp giảm tốc</v-btn
+                            >
+                        </v-col>
+                    </v-row>
                 </v-card-actions>
             </v-card>
         </v-flex>

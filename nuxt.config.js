@@ -73,6 +73,11 @@ export default {
      ** Content module configuration
      ** See https://content.nuxtjs.org/configuration
      */
+    auth: {},
+    /*
+     ** auth module configuration
+     ** See https://auth.nuxtjs.org/guide
+     */
     content: {},
     /*
      ** vuetify module configuration
