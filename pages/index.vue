@@ -78,5 +78,28 @@ export default {
         // Logo,
         // VuetifyLogo,
     },
+    head() {
+        return {
+            meta: [
+                { hid: "og:type", property: "og:type", content: "article" },
+                {
+                    hid: "og:title",
+                    property: "og:title",
+                    content: "test title",
+                },
+                {
+                    hid: "og:description",
+                    property: "og:description",
+                    content: "test sapo",
+                },
+                {
+                    hid: "og:image",
+                    property: "og:image",
+                    content: "test image",
+                },
+                { hid: "title", property: "title", content: "" },
+            ],
+        }
+    },
 }
 </script>

@@ -16,7 +16,7 @@ export default {
      ** See https://nuxtjs.org/api/configuration-head
      */
     head: {
-        titleTemplate: "%s - " + "Auto Machine Elements",
+        // titleTemplate: "%s - " + "Auto Machine Elements",
         title: "Auto Machine Elements" || "",
         meta: [
             { charset: "utf-8" },
@@ -27,8 +27,12 @@ export default {
             {
                 hid: "description",
                 name: "description",
-                content: process.env.npm_package_description || "",
+                content: "Machine elements",
             },
+            // {
+            //     property: "og:url",
+            //     content: `test url`,
+            // },
         ],
         link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },
